@@ -88,3 +88,5 @@ async function listFiles(authClient) {
 }
 
 authorize().then(listFiles).catch(console.error);
+
+console.log(process.env.NODE_ENV)
